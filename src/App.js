@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AboutSection from "./components/about_section/AboutSection";
+import Banner from "./components/banner/Banner";
+import Apr from "./components/content/APR/Apr";
+import ImportantFactors from "./components/content/content_important_factors/ImportantFactors";
+import FastLoanAdvoce from "./components/content/fastLoan_Advance/FastLoanAdvoce";
+import AskedQuestions from "./components/content/Q&A/AskedQuestions";
+import Step from "./components/content/step/Step";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Banner />
+      <div className="container">
+        <AboutSection />
+        <ImportantFactors />
+        <hr />
+        <FastLoanAdvoce />
+        <hr />
+        <Step />
+        <AskedQuestions />
+        <hr />
+        <Apr />
+      </div>
+      <Footer/>
     </div>
   );
 }
