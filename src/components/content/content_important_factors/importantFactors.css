@@ -2,12 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 20px;
 }
+.factor_left{
+  width: 100%;
+ display: flex;
+ justify-content: center;
 
+}
 .factor_left_img{
   width: 100%;
   max-width: 700px;
-  padding-right: 50px;
+  border-radius: 20px;
 }
 .factor_right_title_item{
   font-weight: 400;

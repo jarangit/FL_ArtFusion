@@ -1,5 +1,5 @@
 import React from "react";
-
+import './step.css'
 const Step = () => {
   return (
     <div className="step">

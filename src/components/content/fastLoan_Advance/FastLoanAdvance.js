@@ -1,5 +1,5 @@
 import React from "react";
-
+import './fastLoanAdvance.css'
 const FastLoanAdvoce = () => {
   return (
     <div className="factor">

@@ -1,0 +1,11 @@
+.step{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.step_items_img{
+  margin-right: 10px;
+}
+.step_items{
+  display: flex;
+}

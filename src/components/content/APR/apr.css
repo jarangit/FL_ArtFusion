@@ -6,23 +6,34 @@
   background-color: transparent;
   font-size: 14px;
 } */
-
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+.apr {
+  padding: 20px;
+}
+.teble_resp {
   width: 100%;
+  margin-bottom: 15px;
+  overflow-y: hidden;
+  min-height: .01%;
+  overflow-x: auto;
+}
+#customers {
+  border-collapse: collapse;
   font-size: 14px;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
-#customers td, #customers th {
+#customers td,
+#customers th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #F9F9F9;}
+#customers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
 
-
-.table-titles{
+.table-titles {
   background: #6dc3a4;
   color: #fff;
   font-weight: bold;

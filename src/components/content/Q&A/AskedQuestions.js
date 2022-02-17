@@ -1,5 +1,5 @@
 import React from "react";
-
+import './askedQuestions.css'
 const AskedQuestions = () => {
   return (
     <div className="aq">
