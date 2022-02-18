@@ -1,3 +1,52 @@
-.aq{
+.aq {
   padding: 20px;
+}
+
+.aq_box {
+  width: 100%;
+}
+.aq_box_item > p {
+  display: block;
+  border-bottom: 2px solid #dadada;
+  color: #333;
+  padding: 14px 45px 14px 14px;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+.aq_box_item > p::before {
+  content: "+";
+  font-weight: 900;
+  font-size: 14px;
+  width: 35px;
+  height: 45px;
+  line-height: 48px;
+  background: #e3e7ea;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.aq_box_item_content {
+  overflow: hidden;
+  padding: 0 30px;
+  max-height: 0;
+  color: #888;
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+.aq_box_item_content.active {
+  padding: 20px 30px;
+
+  /* transition: all 0.5s ease 0s; */
+  max-height: 300px;
+  /* transition: max-height 0.35s cubic-bezier(0, 1, 0, 1); */
 }

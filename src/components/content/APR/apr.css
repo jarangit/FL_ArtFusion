@@ -8,6 +8,7 @@
 } */
 .apr {
   padding: 20px;
+  text-align: center;
 }
 .teble_resp {
   width: 100%;
@@ -17,6 +18,8 @@
   overflow-x: auto;
 }
 #customers {
+  width: 100%;
+
   border-collapse: collapse;
   font-size: 14px;
   overflow-y: hidden;
@@ -39,4 +42,13 @@
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
+}
+
+
+.apr_big_title:after {
+  content: '';
+  display: block;
+  width: 150px;
+  border-bottom: 3px solid #1ca674;
+  margin: 25px auto 25px auto;
 }

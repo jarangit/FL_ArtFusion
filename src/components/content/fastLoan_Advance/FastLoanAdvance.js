@@ -1,21 +1,13 @@
 import React from "react";
-import './fastLoanAdvance.css'
+import "./fastLoanAdvance.css";
 const FastLoanAdvoce = () => {
   return (
     <div className="factor">
-      <div className="factor_left">
-        <img
-          src="https://fastloanadvance.com/template/2764/img/decision.jpg"
-          alt=""
-          className="factor_left_img"
-        />
-      </div>
       <div className="factor_right">
         <div className="factor_right_title">
           <h1 className="factor_right_title_item">
             Make the Right Decision with
-            <br />
-            <span className="factor_right_title_green">FastLoanAdvance</span>
+            <span className="factor_right_title_green"> FastLoanAdvance</span>
           </h1>
         </div>
 
@@ -31,6 +23,13 @@ const FastLoanAdvoce = () => {
         </div>
 
         <button className="factor_button">GET STARTED NOW!</button>
+      </div>
+      <div className="factor_left">
+        <img
+          src="https://fastloanadvance.com/template/2764/img/decision.jpg"
+          alt=""
+          className="factor_left_img"
+        />
       </div>
     </div>
   );

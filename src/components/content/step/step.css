@@ -2,10 +2,23 @@
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  justify-content: center;
+  margin: 65px 0;
 }
 .step_items_img{
   margin-right: 10px;
+  width: 90px;
+  height: 90px;
+}
+.step_title{
+  font-size: 18px;
+  margin: 0;
 }
 .step_items{
   display: flex;
+  max-width: 350px;
+  margin-top: 20px;
+}
+.step_text{
+  font-size: 12px;
 }
