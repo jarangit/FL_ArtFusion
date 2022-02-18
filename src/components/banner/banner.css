@@ -2,9 +2,13 @@
   background-image: url("https://fastloanadvance.com/template/2764/img/bgd03.png") !important;
   background-size: cover;
   background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto;
+  background-position: top center;
+  background-size: auto;
 }
-.bg_none{
+.bg_none {
   background: none !important;
+}
+
+#_lg_form_ .hs4U1k{
+  background: none;
 }

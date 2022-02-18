@@ -19,7 +19,7 @@ const Apr = () => {
               <td>$5,000</td>
               <td>$10,000</td>
             </tr>
-            <tr class="text-center">
+            <tr className="text-center">
               <td className="table-titles">Interest Rate</td>
               <td>24%</td>
               <td>19%</td>
