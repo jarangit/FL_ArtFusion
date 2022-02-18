@@ -34,22 +34,25 @@
 }
 
 .aq_box_item_content {
-  overflow: hidden;
-  padding: 0 30px;
-  height: auto;
-  max-height: 0;
-  color: #888;
   font-size: 12px;
-  line-height: 20px;
-  position: relative;
-  border: none;
-  transition:0.5s;
+
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
 
 }
 .aq_box_item_content.active {
-  padding: 20px 30px;
-  max-height: 300px;
-  overflow: hidden;
-  transition:0.5s;
-
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
 }
+
+.aq_content {
+  padding: 20px 30px;
+}
+
+
+/*  ----------------*/
+
+
+

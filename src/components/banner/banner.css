@@ -1,14 +1,46 @@
 #_lg_form_ {
-  background-image: url("https://fastloanadvance.com/template/2764/img/bgd03.png") !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
+  margin-top: 5%;
 }
 .bg_none {
   background: none !important;
 }
 
-#_lg_form_ .hs4U1k{
+#_lg_form_ .hs4U1k {
   background: none;
+}
+
+.bg_banner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url("https://fastloanadvance.com/template/2764/img/bgd03.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+  z-index: 3;
+}
+
+.banner_logo {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  /* left: 50%; */
+  text-align: center;
+
+}
+.logo_content{
+  font-weight: 900;
+  font-size: 50px;
+}
+
+@media (max-width: 1070px) {
+  #_lg_form_ {
+    margin-top: 10%;
+  }
+  .logo_content{
+    font-weight: 900;
+    font-size: 30px;
+  }
 }

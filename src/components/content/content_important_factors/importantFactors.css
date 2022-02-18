@@ -12,6 +12,8 @@
 }
 .factor_left_img {
   width: 100%;
+
+  max-width: 500px;
   border-radius: 20px;
   margin: 20px 0;
 }
@@ -64,7 +66,7 @@
 .factor_button:hover {
   color: #1ca674;
 }
-@media (max-width: 1700px) {
+@media (max-width: 1070px) {
   .factor_left {
     width: 100%;
   }

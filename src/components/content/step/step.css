@@ -22,3 +22,9 @@
 .step_text{
   font-size: 12px;
 }
+@media (max-width: 1070px) {
+  .step {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
