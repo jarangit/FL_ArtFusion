@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./askedQuestions.css";
 const AskedQuestions = () => {
   const Accordion = ({ title, children }) => {
