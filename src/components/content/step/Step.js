@@ -18,7 +18,7 @@ const Step = () => {
       </div>
       <div className="step_items">
         <img
-          src="https://cdn-icons.flaticon.com/png/512/1292/premium/1292921.png?token=exp=1645276801~hmac=85081eff53332d46328e198ad30eb3e9"
+          src="https://cdn-icons.flaticon.com/png/512/1292/premium/1292921.png?token=exp=1645278072~hmac=6636f6af7c83d98059d76455cd84a3fb"
           alt=""
           className="step_items_img"
         />
