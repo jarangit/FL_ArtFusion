@@ -30,11 +30,11 @@
   content: "";
   display: block;
   width: 150px;
-  border-bottom: 3px solid #1ca674;
+  border-bottom: 3px solid var(--blue);
   margin: 25px 0 15px 0;
 }
 .factor_right_title_green {
-  color: #1ca674;
+  color: var(--blue);
   font-weight: 400;
 }
 
@@ -60,11 +60,11 @@
   padding: 15px 30px;
   margin-top: 20px;
   transition: all;
-  border: 1px solid #1ca674;
+  border: 1px solid var(--blue);
   transition: 0.2s;
 }
 .factor_button:hover {
-  color: #1ca674;
+  color: var(--blue);
 }
 @media (max-width: 1070px) {
   .factor_left {

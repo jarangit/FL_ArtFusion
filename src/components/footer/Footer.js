@@ -73,7 +73,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="footer_contact_menu">
+        {/* <div className="footer_contact_menu">
           <div className="menu_item">
             <a href="/">Terms & Conditions</a>
             <a href="/">Lending Policy</a>
@@ -83,7 +83,7 @@ const Footer = () => {
             <a href="/">Privacy Policy</a>
             <a href="/">Unsubscribe</a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

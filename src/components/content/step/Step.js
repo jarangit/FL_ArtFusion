@@ -5,7 +5,7 @@ const Step = () => {
     <div className="step">
       <div className="step_items">
         <img
-          src="https://fastloanadvance.com/template/2764/img/form.png"
+          src="https://cdn-icons-png.flaticon.com/512/1001/1001259.png"
           alt=""
           className="step_items_img"
         />
@@ -18,7 +18,7 @@ const Step = () => {
       </div>
       <div className="step_items">
         <img
-          src="https://fastloanadvance.com/template/2764/img/approval.png"
+          src="https://cdn-icons.flaticon.com/png/512/1292/premium/1292921.png?token=exp=1645276801~hmac=85081eff53332d46328e198ad30eb3e9"
           alt=""
           className="step_items_img"
         />
@@ -31,7 +31,7 @@ const Step = () => {
       </div>
       <div className="step_items">
         <img
-          src="https://fastloanadvance.com/template/2764/img/getfunds.png"
+          src="https://cdn-icons-png.flaticon.com/512/1611/1611220.png"
           alt=""
           className="step_items_img"
         />
